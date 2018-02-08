@@ -1,0 +1,232 @@
+/*############# Imported Fonts ################3*/
+
+@font-face {
+  font-family: 'Rammetto One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rammetto One Regular'), local('RammettoOne-Regular'), url(https://fonts.gstatic.com/s/rammettoone/v6/mh0uQ1tV8QgSx9v_KyEYPOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+@font-face {
+  font-family: 'Bungee';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bungee'), local('Bungee-Regular'), url(https://fonts.gstatic.com/s/bungee/v3/86NbnFpNqZ2MU9Gl0ca2YQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+@font-face {
+  font-family: 'Gloria Hallelujah';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gloria Hallelujah'), local('GloriaHallelujah'), url(https://fonts.gstatic.com/s/gloriahallelujah/v9/CA1k7SlXcY5kvI81M_R28cNDay8z-hHR7F16xrcXsJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Amatic SC Regular'), local('AmaticSC-Regular'), url(https://fonts.gstatic.com/s/amaticsc/v11/DPPfSFKxRTXvae2bKDzp5FtXRa8TVwTICgirnJhmVJw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+@font-face {
+  font-family: 'Amatic SC';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Amatic SC Bold'), local('AmaticSC-Bold'), url(https://fonts.gstatic.com/s/amaticsc/v11/IDnkRTPGcrSVo50UyYNK7-gdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+@font-face {
+  font-family: 'Bungee Shade';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bungee Shade'), local('BungeeShade-Regular'), url(https://fonts.gstatic.com/s/bungeeshade/v3/HSW7pxPYXBWkq7OSnuXoeOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2212, U+2215;
+}
+
+
+
+
+/*############### Defaults ###### */
+header, 
+footer, 
+nav {
+display: block;
+
+}
+
+body {
+    line-height: 1;
+    margin: 0;
+}
+
+body {
+    background-image: url(otis-redding-big.png)
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.row {
+    width: 100%;
+    display:  flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after {
+    display: table;
+    clear: both;
+    content: "";
+    
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;} 
+
+/*###############  Nav Bar############*/
+
+nav {
+    width: 100%;
+    margin: 0;
+   
+    
+}
+
+nav ul {
+    background-color: #000406;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+        }
+
+ ul.topnav li {
+    list-style: none;
+     float: left;
+}
+
+ul.topnav li a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    min-height: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3E3D8;
+    font-weight: bold;
+    font-family: "Bungee", cursive;
+}
+
+ul.topnav li a:hover {
+    background-color: #6A1107;
+    color: #E3E3D8;
+}
+
+ul.topnav li.topnav-R {
+    float: right;
+}
+
+ul.topnav li.dropdownIcon {
+    display: none;
+}
+
+
+/*######### Header and Logo ###########*/
+
+header {
+  background-color: #000406;
+  height: 150px;
+  
+  
+}
+
+header img {
+    height:100%;
+    width: auto;
+    float: left;
+    
+}
+header h1 {
+    text-align: left center;
+    padding: 60px 0px; 
+    font-family: "Amatic SC";
+    font-size: 70px;
+    letter-spacing: 4px;
+    margin: 0;
+    color: white;
+   
+}
+
+
+/*############### banner ##################*/
+
+div.banner {
+    background-image: url(food-background-2.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    margin: 0;
+}
+
+div.banner h1 {
+    font-family: "Bungee", cursive;
+    font-size: 40 px;
+    text-align: right;
+    color: #E3E3D8;
+    padding: 15px;
+}
+
+div.banner p {
+    font-family: "Bungee", cursive;
+    font-size: 25 px;
+    text-align: right;
+    color: #E3E3D8;
+    padding 20;
+    margin-right: 15px;
+    
+}
+/*############### mobile ##############*/
+
+@media screen and (max-width: 680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    ul.topnav li.dropdownIcon {
+        display: block;
+        float: right;
+    }
+    ul.topnav.responsive li.dropdownIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    ul.topnav.responsive {
+        position: relative;
+    }
+    ul.topnav.responsive li {
+        display: inline;
+        float: none;
+    }
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: left;
+    }
+    .col-6 {
+        width:100%;
+        margin: 0;
+    }
+}

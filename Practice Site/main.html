@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+    
+  <title>Cut of the Jib Food Blog</title>
+  <link rel="stylesheet" href="style.css">
+    
+</head>
+    
+     <body>
+         <nav>
+          <ul class="topnav" id="dropDownClick">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#recipes">Recipes</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="topnav-R"><a href="#signUp">Sign Up</a></li>
+        <li class="topnav-R"><a href="#signIn">Sign In</a></li>
+        <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropDownMenu()">&#9776;</a></li>
+        
+         </ul>
+      </nav>
+    
+     
+    
+     
+ <div class="container">
+   <div class="row topLogo">
+     <div class="col-12 ">
+       <header>
+         <img src="jib-logo-reverse.png" alt="Jib Logo" /> 
+         <h1>Likes Food!</h1>
+       </header> 
+     </div>
+   </div>
+   <div class="row">
+     <div class="col-12">
+       <div class="banner" >
+         <h1>Cooking Is Fun!</h1>
+         
+         <p> The Temptation to go out to eat, <br/> or order in can be great, <br/>but we're here to show you easily<br/> learnable techniques and recipes <br/>to look and <i>feel</i> like an Iron Chef.  
+         </p>
+       </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <div class=leftCol>
+             <h1>Standing on the Shoulders of Giants</h1> 
+             <p>The first step in to improvement is to admit you have something to learn.  There are amazing chefs out there making food accessible.  Here is one of my favorite videos from Gordon Ramsey.</p>
+        
+        </div>
+      </div>
+      <div class="col-6">
+        <div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/vyd6PluAH3k" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>  
+        </div>
+      </div>
+    </div>
+ </div>
+
+<script>
+  function dropDownMenu () {
+    let dest = document.getElementById("dropDownClick");
+    if (dest.className === "topnav") {
+      dest.className += " responsive";
+  } else {
+      dest.className = "topnav"
+             }
+         }
+</script>
+
+      </body>
+    
+    </html>
